@@ -1,0 +1,11 @@
+{
+    "name": "vanderbilt/shared-library-example",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Mark McEver",
+            "email": "mark@fastmail.net"
+        }
+    ],
+    "require": {}
+}
