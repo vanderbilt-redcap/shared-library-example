@@ -2,7 +2,7 @@
 namespace Vanderbilt\SharedLibraryExample;
 
 class SharedLibraryExample{
-	private $number;
+	private static $number;
 
 	public static function echoCachedRandomNumber(){
 		if(!isset(self::$number)){
