@@ -5,6 +5,8 @@ class SharedLibraryExample{
 	private static $number;
 
 	public static function echoCachedRandomNumber(){
+		echo "<br>";
+
 		if(!isset(self::$number)){
 			echo "This is the first call to " . __FUNCTION__ . "().  A new random number will be generated and cached.";
 			self::$number = rand();
